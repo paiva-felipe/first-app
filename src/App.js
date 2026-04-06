@@ -11,11 +11,13 @@ import ExercicioView3 from './exc_view/ex3';
 import ExercicioView4 from './exc_view/ex4';
 import ExercicioView5 from './exc_view/ex5';
 import ExercicioView6 from './exc_view/ex6';
+import Somativa1 from './somativa/ex1-somativa';
+import Somativa2 from './somativa/ex2-somativa';
 export default function App() {
 
   return (
     <View style={styles.container}>
-      <ExercicioView6/>
+      <Somativa2/>
       <StatusBar style="auto" />
     </View>
   );
@@ -24,7 +26,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f6f6f6',
-   
+    backgroundColor: '#ffffff',
   },
 });

@@ -63,7 +63,7 @@ export default function ExercicioView2(){
 }
 
 
-const styles= StyleSheet.create({
+export const styles= StyleSheet.create({
     container:{
         flexDirection: 'colum',
         justifyContent: 'center',
